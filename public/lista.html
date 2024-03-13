@@ -36,8 +36,9 @@
     <script defer src="/__/firebase/init.js"></script>
     <!-- calling user authentication functions -->
     <script defer src="js/users/islogin.js"></script>
+    <script defer src="js/users/refresh.js"></script>
 </head>
-<body class="container" onload="validar()">
+<body class="container" onload="validar()" onload="setupRefresh()">
     <header class="header row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
